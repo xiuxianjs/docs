@@ -6,6 +6,6 @@ sidebar_position: 1
 
 :::tip
 
-NodeJS 休闲文字游戏论坛
+Xiuxian 是开源免费的聊天机器人文字游戏。
 
 :::

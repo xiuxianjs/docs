@@ -3,8 +3,8 @@ import type { Config } from '@docusaurus/types'
 import type * as Preset from '@docusaurus/preset-classic'
 
 const config: Config = {
-  title: 'XiuxianJS',
-  tagline: 'nodejs 文字游戏论坛',
+  title: 'Xiuxian',
+  tagline: '聊天机器人文字游戏',
   // favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -45,7 +45,7 @@ const config: Config = {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
-      title: 'xiuxianjs',
+      title: 'Xiuxian',
       // logo: {
       //   alt: 'Miao-Yunzai Logo',
       //   src: 'img/logo.svg',
