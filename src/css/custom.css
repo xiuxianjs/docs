@@ -1,0 +1,44 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #f89900; /* 明亮但柔和的橙色 */
+  --ifm-color-primary-dark: #f68401; /* 深一些的橙色 */
+  --ifm-color-primary-darker: #f77802; /* 更深的橙色 */
+  --ifm-color-primary-darkest: #ff6d00; /* 最深的橙色 */
+  --ifm-color-primary-light: #f3af30; /* 浅橙色 */
+  --ifm-color-primary-lighter: #f5c644; /* 更浅的橙色 */
+  --ifm-color-primary-lightest: #f2d9aa; /* 最浅的橙色 */
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(255, 159, 0, 0.1); /* 柔和的橙色背景 */
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  --ifm-color-primary: #f89900; /* 明亮但柔和的橙色 */
+  --ifm-color-primary-dark: #f88400; /* 深一些的橙色 */
+  --ifm-color-primary-darker: #f37602; /* 更深的橙色 */
+  --ifm-color-primary-darkest: #f46a00; /* 最深的橙色 */
+  --ifm-color-primary-light: #f7b233; /* 浅橙色 */
+  --ifm-color-primary-lighter: #f6c642; /* 更浅的橙色 */
+  --ifm-color-primary-lightest: #f4dbab; /* 最浅的橙色 */
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(255, 159, 0, 0.1); /* 柔和的橙色背景 */
+}
+
+/* serch input navbar */
+@media (max-width: 1183px) {
+  .navbar__item {
+    padding: 0.15em;
+  }
+}
+
+@media (max-width: 1063px) {
+  .navbar__search-input {
+    width: 10em;
+  }
+}
